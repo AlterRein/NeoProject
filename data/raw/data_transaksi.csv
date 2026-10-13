@@ -1,101 +1,101 @@
-transaction_id,amount_idr,status
-TXN000001,1400157,failed
-TXN000002,1116906,success
-TXN000003,714976,success
-TXN000004,763781,failed
-TXN000005,289821,failed
-TXN000006,635552,failed
-TXN000007,1956520,success
-TXN000008,1483867,failed
-TXN000009,1009235,success
-TXN000010,1066885,success
-TXN000011,341434,success
-TXN000012,95027,success
-TXN000013,1244546,success
-TXN000014,293690,failed
-TXN000015,1492440,failed
-TXN000016,1746601,success
-TXN000017,1775691,failed
-TXN000018,1966016,failed
-TXN000019,340165,failed
-TXN000020,1128797,failed
-TXN000021,1260008,failed
-TXN000022,269301,failed
-TXN000023,1820418,success
-TXN000024,768262,failed
-TXN000025,1341064,failed
-TXN000026,1652880,success
-TXN000027,1733918,success
-TXN000028,1450210,failed
-TXN000029,52449,success
-TXN000030,1541351,failed
-TXN000031,1877954,failed
-TXN000032,1477825,success
-TXN000033,709416,success
-TXN000034,445538,success
-TXN000035,184905,success
-TXN000036,605185,success
-TXN000037,471422,success
-TXN000038,1415101,success
-TXN000039,765838,failed
-TXN000040,1534222,success
-TXN000041,1959910,success
-TXN000042,1979334,success
-TXN000043,409185,failed
-TXN000044,938859,success
-TXN000045,552658,failed
-TXN000046,833267,failed
-TXN000047,1319471,failed
-TXN000048,360511,failed
-TXN000049,250888,success
-TXN000050,50479,failed
-TXN000051,676133,failed
-TXN000052,741303,failed
-TXN000053,1467892,failed
-TXN000054,902193,failed
-TXN000055,309164,success
-TXN000056,1207967,failed
-TXN000057,1900465,failed
-TXN000058,1335770,failed
-TXN000059,1866234,failed
-TXN000060,271561,failed
-TXN000061,420645,success
-TXN000062,412687,success
-TXN000063,1629890,failed
-TXN000064,1648717,failed
-TXN000065,1550363,success
-TXN000066,34477,failed
-TXN000067,856899,success
-TXN000068,578036,success
-TXN000069,1523281,success
-TXN000070,567267,success
-TXN000071,1010392,failed
-TXN000072,585785,success
-TXN000073,792702,failed
-TXN000074,987680,success
-TXN000075,806504,success
-TXN000076,827887,success
-TXN000077,1001728,failed
-TXN000078,85000,failed
-TXN000079,940053,failed
-TXN000080,1466148,failed
-TXN000081,283766,success
-TXN000082,1314534,failed
-TXN000083,1820311,success
-TXN000084,1388030,success
-TXN000085,902067,success
-TXN000086,1160998,failed
-TXN000087,641519,failed
-TXN000088,1619470,failed
-TXN000089,308129,failed
-TXN000090,1369093,success
-TXN000091,1088243,success
-TXN000092,298358,failed
-TXN000093,794031,failed
-TXN000094,1576803,failed
-TXN000095,1640072,success
-TXN000096,359577,failed
-TXN000097,1177253,failed
-TXN000098,146357,failed
-TXN000099,984689,success
-TXN000100,115753,success
+transaction_id,timestamp,payment_method,region,amount_ide,status,failure_reasons,processing_fee_idr
+TXN000001,2026-09-13 12:24:00,e_wallet,east_java,153451,success,,2302
+TXN000002,2026-09-25 19:41:00,card,jakarta,315947,success,,7899
+TXN000003,2026-09-05 06:20:00,bank_transfer,east_java,163489,success,,1635
+TXN000004,2026-09-26 13:01:00,e_wallet,jakarta,156649,success,,2350
+TXN000005,2026-09-20 02:13:00,e_wallet,jakarta,1243825,success,,18657
+TXN000006,2026-09-01 07:05:00,e_wallet,west_java,1798498,success,,26977
+TXN000007,2026-09-16 11:38:00,card,jakarta,987286,success,,24682
+TXN000008,2026-09-05 05:18:00,card,west_java,315350,success,,7884
+TXN000009,2026-09-13 00:55:00,bank_transfer,west_java,1367105,success,,13671
+TXN000010,2026-09-06 16:20:00,e_wallet,west_java,1225551,failed,inusifficient_funds,18383
+TXN000011,2026-09-29 14:38:00,card,jakarta,715839,success,,17896
+TXN000012,2026-09-04 03:58:00,bank_transfer,jakarta,504258,success,,5043
+TXN000013,2026-09-11 14:16:00,card,west_java,268335,success,,6708
+TXN000014,2026-09-29 22:20:00,bank_transfer,west_java,1051870,success,,10519
+TXN000015,2026-09-10 12:50:00,card,west_java,846056,success,,21151
+TXN000016,2026-09-04 05:59:00,e_wallet,jakarta,1460028,success,,21900
+TXN000017,2026-09-12 03:23:00,card,jakarta,1630089,success,,40752
+TXN000018,2026-09-26 08:20:00,bank_transfer,west_java,1443176,success,,14432
+TXN000019,2026-09-02 11:03:00,bank_transfer,east_java,581348,success,,5813
+TXN000020,2026-09-10 14:26:00,bank_transfer,west_java,239807,failed,suspected_fraud,2398
+TXN000021,2026-09-30 19:54:00,e_wallet,west_java,546910,success,,8204
+TXN000022,2026-09-13 01:19:00,e_wallet,west_java,400623,success,,6009
+TXN000023,2026-09-12 22:59:00,e_wallet,jakarta,1231317,success,,18470
+TXN000024,2026-09-17 11:23:00,bank_transfer,jakarta,938603,success,,9386
+TXN000025,2026-09-05 03:17:00,card,jakarta,1135977,success,,28399
+TXN000026,2026-09-08 06:44:00,card,east_java,1416849,success,,35421
+TXN000027,2026-09-18 12:16:00,bank_transfer,jakarta,234227,success,,2342
+TXN000028,2026-09-26 04:16:00,bank_transfer,jakarta,628253,success,,6283
+TXN000029,2026-09-06 05:07:00,card,jakarta,1612463,success,,40312
+TXN000030,2026-09-30 04:06:00,e_wallet,west_java,1712868,success,,25693
+TXN000031,2026-09-21 15:35:00,bank_transfer,west_java,432680,success,,4327
+TXN000032,2026-09-23 18:46:00,e_wallet,jakarta,653366,success,,9800
+TXN000033,2026-09-29 10:59:00,e_wallet,east_java,1926609,success,,28899
+TXN000034,2026-09-10 01:15:00,e_wallet,jakarta,1378103,success,,20672
+TXN000035,2026-09-25 03:17:00,card,jakarta,1733898,success,,43347
+TXN000036,2026-09-01 21:16:00,e_wallet,west_java,1125680,success,,16885
+TXN000037,2026-09-03 15:16:00,bank_transfer,west_java,603167,success,,6032
+TXN000038,2026-09-23 02:49:00,e_wallet,east_java,280628,success,,4209
+TXN000039,2026-09-22 15:08:00,e_wallet,east_java,370256,success,,5554
+TXN000040,2026-09-28 14:33:00,card,west_java,1207612,success,,30190
+TXN000041,2026-09-10 03:42:00,card,jakarta,1684905,success,,42123
+TXN000042,2026-09-17 23:52:00,bank_transfer,jakarta,1463893,success,,14639
+TXN000043,2026-09-12 06:46:00,e_wallet,west_java,354764,success,,5321
+TXN000044,2026-09-26 05:01:00,bank_transfer,east_java,1334772,success,,13348
+TXN000045,2026-09-29 17:19:00,card,east_java,249883,success,,6247
+TXN000046,2026-09-16 00:54:00,card,east_java,1903786,success,,47595
+TXN000047,2026-09-23 02:12:00,card,west_java,1503948,success,,37599
+TXN000048,2026-09-26 23:43:00,card,jakarta,1951491,success,,48787
+TXN000049,2026-09-19 12:37:00,card,west_java,1794443,success,,44861
+TXN000050,2026-09-17 02:59:00,card,jakarta,1004979,success,,25124
+TXN000051,2026-09-30 17:44:00,bank_transfer,jakarta,214605,failed,issuer_unavailable,2146
+TXN000052,2026-09-16 10:36:00,card,west_java,1628174,success,,40704
+TXN000053,2026-09-09 15:45:00,card,east_java,502793,success,,12570
+TXN000054,2026-09-13 16:14:00,card,west_java,485802,success,,12145
+TXN000055,2026-09-26 01:06:00,card,west_java,1795545,success,,44889
+TXN000056,2026-09-01 16:07:00,e_wallet,jakarta,1854276,failed,issuer_unavailable,27814
+TXN000057,2026-09-22 21:46:00,card,west_java,1119463,success,,27987
+TXN000058,2026-09-18 05:56:00,bank_transfer,east_java,446269,success,,4463
+TXN000059,2026-09-21 16:59:00,bank_transfer,west_java,1745315,success,,17453
+TXN000060,2026-09-26 07:02:00,e_wallet,jakarta,1743828,success,,26157
+TXN000061,2026-09-14 12:05:00,bank_transfer,east_java,499244,success,,4992
+TXN000062,2026-09-25 16:13:00,card,jakarta,1643952,success,,41099
+TXN000063,2026-09-27 14:04:00,bank_transfer,east_java,206156,success,,2062
+TXN000064,2026-09-24 02:41:00,e_wallet,east_java,220285,success,,3304
+TXN000065,2026-09-04 02:13:00,card,east_java,1348879,success,,33722
+TXN000066,2026-09-26 22:14:00,card,west_java,352420,success,,8810
+TXN000067,2026-09-04 17:32:00,e_wallet,east_java,1399937,success,,20999
+TXN000068,2026-09-15 09:33:00,e_wallet,jakarta,1197354,success,,17960
+TXN000069,2026-09-15 07:10:00,card,jakarta,1602963,success,,40074
+TXN000070,2026-09-30 09:03:00,bank_transfer,east_java,1509636,success,,15096
+TXN000071,2026-09-21 20:34:00,bank_transfer,east_java,120535,success,,1205
+TXN000072,2026-09-25 11:14:00,e_wallet,east_java,254638,success,,3820
+TXN000073,2026-09-04 03:08:00,bank_transfer,east_java,832924,success,,8329
+TXN000074,2026-09-20 22:36:00,bank_transfer,west_java,431819,success,,4318
+TXN000075,2026-09-30 18:18:00,e_wallet,west_java,1383781,success,,20757
+TXN000076,2026-09-05 17:08:00,e_wallet,jakarta,728842,success,,10933
+TXN000077,2026-09-05 20:54:00,card,west_java,343071,success,,8577
+TXN000078,2026-09-28 12:38:00,card,west_java,691885,success,,17297
+TXN000079,2026-09-29 20:45:00,bank_transfer,east_java,1542785,success,,15428
+TXN000080,2026-09-03 07:29:00,e_wallet,west_java,627639,success,,9415
+TXN000081,2026-09-01 03:52:00,bank_transfer,west_java,193456,success,,1935
+TXN000082,2026-09-08 08:29:00,card,jakarta,650360,success,,16259
+TXN000083,2026-09-26 12:39:00,e_wallet,jakarta,997924,success,,14969
+TXN000084,2026-09-07 18:48:00,card,jakarta,1996675,success,,49917
+TXN000085,2026-09-07 17:45:00,bank_transfer,jakarta,1259729,success,,12597
+TXN000086,2026-09-02 19:34:00,card,west_java,865729,success,,21643
+TXN000087,2026-09-05 16:16:00,card,jakarta,624301,success,,15608
+TXN000088,2026-09-08 00:48:00,e_wallet,west_java,1402621,success,,21039
+TXN000089,2026-09-09 01:23:00,card,east_java,1778484,success,,44462
+TXN000090,2026-09-16 02:50:00,card,east_java,1645687,success,,41142
+TXN000091,2026-09-12 07:03:00,bank_transfer,jakarta,1913073,success,,19131
+TXN000092,2026-09-02 18:17:00,e_wallet,east_java,903248,success,,13549
+TXN000093,2026-09-21 22:46:00,card,east_java,1813506,success,,45338
+TXN000094,2026-09-09 18:56:00,card,east_java,150627,success,,3766
+TXN000095,2026-09-13 16:52:00,bank_transfer,east_java,1722783,success,,17228
+TXN000096,2026-09-25 09:41:00,e_wallet,west_java,1526052,success,,22891
+TXN000097,2026-09-12 21:18:00,card,east_java,1940282,success,,48507
+TXN000098,2026-09-28 03:36:00,bank_transfer,east_java,328336,success,,3283
+TXN000099,2026-09-28 14:08:00,e_wallet,west_java,1016184,failed,issuer_unavailable,15243
+TXN000100,2026-09-12 14:13:00,bank_transfer,jakarta,499624,success,,4996
