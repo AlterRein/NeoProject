@@ -1,4 +1,4 @@
-transaction_id,timestamp,payment_method,region,amount_ide,status,failure_reasons,processing_fee_idr
+transaction_id,timestamp,payment_method,region,amount_idr,status,failure_reason,processing_fee_idr
 TXN000001,2026-09-13 12:24:00,e_wallet,east_java,153451,success,,2302
 TXN000002,2026-09-25 19:41:00,card,jakarta,315947,success,,7899
 TXN000003,2026-09-05 06:20:00,bank_transfer,east_java,163489,success,,1635

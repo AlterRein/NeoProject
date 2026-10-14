@@ -9,9 +9,9 @@ data = [[
     "timestamp",
     "payment_method",
     "region",
-    "amount_ide",
+    "amount_idr",
     "status",
-    "failure_reasons",
+    "failure_reason",
     "processing_fee_idr"
 ]]
 
