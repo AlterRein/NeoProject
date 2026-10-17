@@ -1,8 +1,6 @@
 import csv
 import sqlite3
 
-print("SCRIPT Dimulai")
-
 CSV_PATH = "../data/raw/data_transaksi.csv"
 DB_PATH = "../data/payment_intelligence.db"
 
