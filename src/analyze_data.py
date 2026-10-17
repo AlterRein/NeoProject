@@ -45,6 +45,8 @@ for method, stats in analytics.items():
         stats["success"] / stats["total"] * 100
     )
 
+    average_fee = stats["total_fee"] / stats["total"]
+
     print(f"\nMetode pembayaran: {method}")
     print(f"Total transaksi: {stats['total']}")
     print(f"Berhasil: {stats['success']}")
@@ -52,3 +54,4 @@ for method, stats in analytics.items():
     print(f"Success rate: {success_rate:.2f}%")
     print(f"Total nilai transaksi: Rp{stats['total_amount']:,}")
     print(f"Total biaya pemrosesan: Rp{stats['total_fee']:,}")
+    print(f"Rata-rata biaya per transaksi: Rp{average_fee:,.2f}")
